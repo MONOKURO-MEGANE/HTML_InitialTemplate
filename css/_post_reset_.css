@@ -1,0 +1,22 @@
+*,
+*:before,
+*::before,
+*:after,
+*::after {
+	box-sizing: border-box;
+
+	font-family: Osaka, "Meiryo UI", sans-sheif;
+}
+
+/* Youtube のレスポンシブ対応 */
+.youtube {
+	width: 90%;
+	aspect-ratio: 16 / 9;
+
+	margin: auto;
+	text-align: center;
+}
+.youtube iframe {
+	width: 100%;
+	height: 100%;
+}
