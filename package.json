@@ -1,0 +1,24 @@
+{
+  "name": "html_initialtemplate",
+  "version": "1.0.0",
+  "description": "Webサイト制作時に使うテンプレートファイル群",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --color --embed-source-map stylesheet/scss/:css/ --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MONOKURO-MEGANE/HTML_InitialTemplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MONOKURO-MEGANE/HTML_InitialTemplate/issues"
+  },
+  "homepage": "https://github.com/MONOKURO-MEGANE/HTML_InitialTemplate#readme",
+  "devDependencies": {
+    "sass": "^1.47.0"
+  }
+}
