@@ -1,9 +1,9 @@
 # HTML_InitialTemplate
 
-':::note info'
+:::note info 
 Webサイト制作時に使うテンプレートファイル群 \
 ※ディレクトリ構造もほぼそのまま
-':::'
+::: 
 
 ## そのほかに必要なもの
 
