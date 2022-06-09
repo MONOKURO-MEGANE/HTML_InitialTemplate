@@ -19,7 +19,7 @@ img {
 *::after {
 	box-sizing: border-box;
 
-	font-family: Osaka, "Meiryo UI", sans-sheif;
+	font-family: Osaka, "Meiryo UI", sans-serif;
 }
 
 /* Youtube のレスポンシブ対応 */
