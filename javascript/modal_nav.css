@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* 初期状態では非表示のまま */
+div#overlay, div#modal-area, div#global-menu-wrapper {
+  display: none;
+}
+/**********************************************************************************/
+
+div#overlay {
+  z-index: 99;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,.5);
+}
+
+div#modal-area {
+  z-index: 999;
+  width: 80%;
+  height: 80%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow-y: scroll;
+  background-color: #dfdfdf;
+}
+
+div#global-menu-wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+div#global-menu-wrapper .global-menu-area {
+  width: 100%;
+  height: auto;
+}
+
+div#global-menu-wrapper .global-menu-area .menu-list {
+  padding-left: 0;
+
+  margin: 2rem auto;
+}
+
+div#global-menu-wrapper .global-menu-area .menu-list .menu-item {
+  list-style-type: none;
+
+  padding: .5rem 0;
+  text-align: center;
+}
+
+div#global-menu-wrapper .global-menu-area .menu-list .menu-item a:link,
+div#global-menu-wrapper .global-menu-area .menu-list .menu-item a:hover,
+div#global-menu-wrapper .global-menu-area .menu-list .menu-item a:active,
+div#global-menu-wrapper .global-menu-area .menu-list .menu-item a:visited {
+  text-decoration: none;
+
+  font-size: 2.0rem;
+  font-weight: normal;
+}
