@@ -19,7 +19,14 @@ img {
 *::after {
 	box-sizing: border-box;
 
-	font-family: Osaka, "Meiryo UI", sans-serif;
+	font-family: "Font Awesome 5 Free", YuGothic, "Yu Gothic Medium", "Yu Gothic", Osaka, "Meiryo UI", sans-serif;
+
+	letter-spacing: 2px;
+	line-height: 1.4;
+}
+
+figure {
+	line-height: 0;
 }
 
 /* Youtube のレスポンシブ対応 */
